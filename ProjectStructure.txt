@@ -1,0 +1,9 @@
+project_folder/
+│
+├── datasets/
+├── notebooks/
+├── outputs/
+│   ├── charts/
+│   └── reports/
+├── README.md
+└── requirements.tx
