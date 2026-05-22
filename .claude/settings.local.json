@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python -c \"import json; data=json.load\\(open\\(r'c:\\\\Users\\\\Mukund\\\\Amzon_Product_review_analysis_problem_4\\\\notebooks\\\\mukund_visualizations.ipynb'\\)\\); last=data['cells'][-1]; print\\('Last cell id:', last['id']\\); print\\('Source:', ''.join\\(last['source']\\)[:200]\\)\")",
       "Bash(python -c \"import json; data=json.load\\(open\\(r'c:\\\\Users\\\\Mukund\\\\Amzon_Product_review_analysis_problem_4\\\\notebooks\\\\mukund_visualizations.ipynb'\\)\\); c=data['cells'][2]; print\\('cell01 source:'\\); print\\(''.join\\(c['source']\\)\\)\")",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(python write_nb.py)",
+      "Bash(python -c \"import os; print\\(os.path.exists\\(r'c:\\\\Users\\\\Mukund\\\\Amzon_Product_review_analysis_problem_4\\\\write_nb.py'\\)\\)\")"
     ]
   }
 }
